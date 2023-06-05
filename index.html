@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+             </head>
+    <body>
+
+        <!-- Cabeçalho -->
+        <div class="page-header">
+            <h1>CRUD Básico .JS/ localStorage</h1>
+        </div>
+
+        <!--Formulário de entrada de dados-->
+        <div class="container">
+            <form id="frmPerson" class="form-horizontal">
+                <div class="form-group">
+                    <label for="txtID" class="col-sm-2 control-label">Nome</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="Nome" class="form-control" placeholder="Nome">
+                    </div>
+                </div>                    
+                <div class="form-group">
+                    <label for="txtName" class="col-lg-2 control-label">CPF</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="CPF" class="form-control" placeholder="CPF">
+                    </div>
+                </div>
+              <div class="form-group">
+                    <label for="txtName" class="col-lg-2 control-label">Telefone</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="Telefone" class="form-control" placeholder="Telefone">
+                    </div>
+                </div>
+              <div class="form-group">
+                    <label for="txtName" class="col-lg-2 control-label">Email</label>
+                    <div class="col-sm-4">
+                        <input type="email" id="Email" class="form-control" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="txtPhone" class="col-lg-2 control-label">Latitude</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="Lat" class="form-control" placeholder="Latitude">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="txtEmail" class="col-lg-2 control-label">Longitude</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="Lng" class="form-control" placeholder="Longitude">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-lg-offset-2 col-sm-4">
+                        <input type="submit" value="Insertar" id="btnSave" class="btn btn-success"/>
+                    </div>
+                </div>
+            </form>
+        </div>      
+
+        <!--Tabela com a lista de dados-->
+        <div class="container">
+            <table id="tblList" class="table table-bordered"></table>
+        </div>
+
+        <!--Rodapé-->
+        <div id="footer">
+            <div class="container">
+                <p class="text-muted credit">Leonardo de Melo - Frontend Developer</p>
+            </div>
+        </div>
+     
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>       
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
